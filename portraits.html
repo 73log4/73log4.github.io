@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/general_leyout.css">
+        <link rel="stylesheet" href="styles/gallery.css">
+        <link rel="stylesheet" href="styles/nav.css">
+        <link rel="stylesheet" href="styles/footer.css">
+    </head>
+    <body onclick="hideMenu()" class="no-select">
+        <div class="header-mb">
+            <a class="menu-button" id="menu-link-box">
+                
+            </a>
+            <a href="index.html" class="pp-link">
+                <h1>
+                    Pavla Parik
+                </h1>
+            </a>
+            <dialog class="menu-mb">
+                <div class="modal-fiter">
+                    <a class="menu-button-close"></a>
+                    <a href="index.html" class="mb-menu-link" style="margin-top: 1rem;">HOME</a>
+                    <div class="menu-sep"></div>
+                    <a href="gallery.html" class="mb-menu-link yellow-link">GALLERY</a>
+                    <div class="menu-sep"></div>
+                    <a href="biography.html" class="mb-menu-link">BIOGRAPHY</a>
+                    <div class="menu-sep"></div>
+                    <a href="exibitions.html" class="mb-menu-link">EXIBITIONS</a>
+                    <div class="menu-sep"></div>
+                    <a href="contact.html" class="mb-menu-link">CONTACT</a>
+                </div>
+            </dialog>
+        </div>
+
+        <div class="header-ds">
+            <a href="index.html">
+                <h1>
+                    Pavla Parik
+                </h1>
+            </a>
+            <a href="contact.html">
+                <div class="nav_box" id="box1">
+                  <div>CONTACT</div>
+                </div>
+              </a>
+            <a href="exibitions.html">
+                <div class="nav_box" id="box2">
+                    <div>EXIBITIONS</div>
+                </div>
+            </a>
+            <a href="biography.html">
+                <div class="nav_box" id="box3">
+                    <div>BIOGRAPHY</div>
+                </div>
+            </a>
+            <a href="gallery.html">
+                <div class="nav_box" id="box4">
+                    <div>GALLERY</div>
+                </div>
+            </a>
+            <a href="index.html">
+                <div class="nav_box" id="box4">
+                    <div>HOME</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="gallery-nav-container">
+            <div class="gallery-nav">
+                <h2>Subjects </h2>
+                <a class="gallery-nav-link" href="gallery.html">Landscape</a>
+                <a class="gallery-nav-link" href="existential.html">Existential</a>
+                <a class="gallery-nav-link gallery-nav-link-select" href="portraits.html">Portraits</a>
+                <a class="gallery-nav-link" href="jewish_motives.html">Jewish Motives</a>
+                <a class="gallery-nav-link" href="enviromental.html">Enviromental</a>
+            </div>
+            <h3>About Series</h3>
+            <p>
+                I usually capture a person whose life and destiny have touched me deeply. One of the things that fascinate me the most is that these personalities maintain a positive approach to life despite the hardships they have endured. I usually use a neutral grey background that lets the realistically painted portrait stand out and the viewer is able to fully concentrate on the character of the person.
+            </p>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-cl">
+
+                <div class="img-con" data-big-img="big-1">
+                    <img tabindex="0" src="images/gallery_portraits/1.jpg" alt="portrait painting">
+                </div>
+                <div class="img-con" data-big-img="big-2">
+                    <img tabindex="0" src="images/gallery_portraits/2.jpg" alt="portrait painting">
+                </div>
+                <div class="img-con" data-big-img="big-3">
+                    <img tabindex="0" src="images/gallery_portraits/3.jpg" alt="portrait painting">
+                </div>
+
+            </div>
+            <div class="gallery-cl">
+
+                <div class="img-con" data-big-img="big-4">
+                    <img tabindex="0" src="images/gallery_portraits/4.jpg" alt="portrait painting">
+                </div>
+                <div class="img-con" data-big-img="big-5">
+                    <img tabindex="0" src="images/gallery_portraits/5.jpg" alt="portrait painting">
+                </div>
+
+            </div>
+            <div class="gallery-cl">
+
+                <div class="img-con" data-big-img="big-6">
+                    <img tabindex="0" src="images/gallery_portraits/6.jpg" alt="portrait painting">
+                </div>
+                <div class="img-con" data-big-img="big-7">
+                    <img tabindex="0" src="images/gallery_portraits/7.jpg" alt="portrait painting">
+                </div>
+                <div class="img-con" data-big-img="big-8">
+                    <img tabindex="0" src="images/gallery_portraits/8.jpg" alt="portrait painting">
+                </div>
+
+            </div>
+        </div>
+
+        <dialog class="big-img-con" id="big-1">
+            <img src="images/gallery_portraits/1.jpg" data-vertical>
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    40cm x 60cm
+                </p>
+                <a class="detail-link" onclick="bigImage(1)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <dialog class="big-img-con" id="big-2">
+            <img src="images/gallery_portraits/2.jpg" data-vertical="">
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    80cm x 100cm
+                </p>
+                <a class="detail-link" onclick="bigImage(2)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <dialog class="big-img-con" id="big-3">
+            <img src="images/gallery_portraits/3.jpg" data-horizontal>
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    60cm x 40cm
+                </p>
+                <a class="detail-link" onclick="bigImage(3)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <dialog class="big-img-con" id="big-4">
+            <img src="images/gallery_portraits/4.jpg" data-horizontal="">
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    80cm x 60cm
+                </p>
+                <a class="detail-link" onclick="bigImage(4)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <dialog class="big-img-con" id="big-5">
+            <img src="images/gallery_portraits/5.jpg" data-vertical>
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    70cm x 100cm
+                </p>
+                <a class="detail-link" onclick="bigImage(5)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <dialog class="big-img-con" id="big-6">
+            <img src="images/gallery_portraits/6.jpg" data-vertical="">
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    40cm x 60cm
+                </p>
+                <a class="detail-link" onclick="bigImage(6)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <dialog class="big-img-con" id="big-7">
+            <img src="images/gallery_portraits/7.jpg" data-vertical>
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    50cm x 70cm
+                </p>
+                <a class="detail-link" onclick="bigImage(7)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <dialog class="big-img-con" id="big-8">
+            <img src="images/gallery_portraits/8.jpg" data-vertical>
+            <div class="img-info">
+                <h3>Portrait</h3>
+                <p data-number-txt>
+                    60cm x 90cm
+                </p>
+                <a class="detail-link" onclick="bigImage(8)">View In Details</a>
+
+                <div class="close-img"></div>
+            </div>
+        </dialog>
+
+        <div class="footer">
+            <p class="copyright">
+                &copy; 2022 Pavla Parik - All Rights Reserved
+            </p>
+            <div class="footer-links">
+                <a href="contact.html">Conatact US</a>
+                <a href="biography.html" data-left-border>Biography</a>
+            </div>
+        </div>
+
+        <script src="js_code/mb_menu.js"></script>
+        <script src="js_code/gallery.js"></script>
+        <script src="js_code/portraits_link.js"></script>
+    </body> 
+</html>

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/general_leyout.css">
+        <link rel="stylesheet" href="styles/gallery_ind.css">
+        <link rel="stylesheet" href="styles/nav.css">
+        <link rel="stylesheet" href="styles/footer.css">
+    </head>
+    <body class="no-select">
+        <div class="body-container">
+            <div class="header-mb">
+                <a class="menu-button" id="menu-link-box">
+                    
+                </a>
+                <a href="index.html" class="pp-link">
+                    <h1>
+                        Pavla Parik
+                    </h1>
+                </a>
+                <dialog class="menu-mb">
+                    <div class="modal-fiter">
+                        <a class="menu-button-close"></a>
+                        <a href="index.html" class="mb-menu-link" style="margin-top: 1rem;">HOME</a>
+                        <div class="menu-sep"></div>
+                        <a href="gallery.html" class="mb-menu-link yellow-link">GALLERY</a>
+                        <div class="menu-sep"></div>
+                        <a href="biography.html" class="mb-menu-link">BIOGRAPHY</a>
+                        <div class="menu-sep"></div>
+                        <a href="exibitions.html" class="mb-menu-link">EXIBITIONS</a>
+                        <div class="menu-sep"></div>
+                        <a href="contact.html" class="mb-menu-link">CONTACT</a>
+                    </div>
+                </dialog>
+            </div>
+
+            <div class="header-ds">
+                <a href="index.html">
+                    <h1>
+                        Pavla Parik
+                    </h1>
+                </a>
+                <a href="contact.html">
+                    <div class="nav_box" id="box1">
+                      <div>CONTACT</div>
+                    </div>
+                  </a>
+                <a href="exibitions.html">
+                    <div class="nav_box" id="box2">
+                        <div>EXIBITIONS</div>
+                    </div>
+                </a>
+                <a href="biography.html">
+                    <div class="nav_box" id="box3">
+                        <div>BIOGRAPHY</div>
+                    </div>
+                </a>
+                <a href="gallery.html">
+                    <div class="nav_box" id="box4">
+                        <div>GALLERY</div>
+                    </div>
+                </a>
+                <a href="index.html">
+                    <div class="nav_box" id="box4">
+                        <div>HOME</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="img-window">
+            
+                <img src="images/gallery_landscape/1.jpg" class="large-img" data-num="1" style="display: none;">
+                <img src="images/gallery_landscape/2.jpg" class="large-img" data-num="2" style="display: none;">
+                <img src="images/gallery_landscape/3.jpg" class="large-img" data-num="3" style="display: none;">
+                <img src="images/gallery_landscape/4.jpg" class="large-img" data-num="4" style="display: none;">
+                <img src="images/gallery_landscape/5.jpg" class="large-img" data-num="5" style="display: none;">
+                <img src="images/gallery_landscape/6.jpg" class="large-img" data-num="6" style="display: none;">
+                <img src="images/gallery_landscape/7.jpg" class="large-img" data-num="7" style="display: none;">
+                <img src="images/gallery_landscape/8.jpg" class="large-img" data-num="8" style="display: none;">
+                <img src="images/gallery_landscape/9.jpg" class="large-img" data-num="9" style="display: none;">
+                <img src="images/gallery_landscape/10.jpg" class="large-img" data-num="10" style="display: none;">
+                <img src="images/gallery_landscape/11.jpg" class="large-img" data-num="11" style="display: none;">
+                <img src="images/gallery_landscape/12.jpg" class="large-img" data-num="12" style="display: none;">
+                <img src="images/gallery_landscape/13.jpg" class="large-img" data-num="13" style="display: none;">
+                <img src="images/gallery_landscape/14.jpg" class="large-img" data-num="14" style="display: none;">
+                <img src="images/gallery_landscape/15.jpg" class="large-img" data-num="15" style="display: none;">
+                <img src="images/gallery_landscape/16.jpg" class="large-img" data-num="16" style="display: none;">
+                <img src="images/gallery_landscape/17.jpg" class="large-img" data-num="17" style="display: none;">
+                <img src="images/gallery_landscape/18.jpg" class="large-img" data-num="18" style="display: none;">
+                <img src="images/gallery_landscape/19.jpg" class="large-img" data-num="19" style="display: none;">
+                <img src="images/gallery_landscape/10.jpg" class="large-img" data-num="20" style="display: none;">
+                <img src="images/gallery_landscape/21.jpg" class="large-img" data-num="21" style="display: none;">
+                <img src="images/gallery_landscape/22.jpg" class="large-img" data-num="22" style="display: none;">
+                <img src="images/gallery_landscape/23.jpg" class="large-img" data-num="23" style="display: none;">
+                <img src="images/gallery_landscape/24.jpg" class="large-img" data-num="24" style="display: none;">
+                <img src="images/gallery_landscape/25.jpg" class="large-img" data-num="19" style="display: none;">
+                <img src="images/gallery_landscape/26.jpg" class="large-img" data-num="20" style="display: none;">
+                <img src="images/gallery_landscape/27.jpg" class="large-img" data-num="21" style="display: none;">
+                <img src="images/gallery_landscape/28.jpg" class="large-img" data-num="22" style="display: none;">
+                <img src="images/gallery_landscape/29.jpg" class="large-img" data-num="23" style="display: none;">
+
+                <a class="prev gallery-button" onclick="leftImg()"></a>
+                <a class="next gallery-button" onclick="rightImg()"></a>
+
+                <a href="gallery.html" class="back-link"></a>
+
+            </div>
+
+            <div class="img-inf">
+
+                <div class="inf-content" data-num="1" style="display: none;">
+                    <h3>"Before the Storm"</h3>
+                    <p>
+                        Location: Ein Afek Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        90cm x 70cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="2" style="display: none;">
+                    <h3>Before the Storm</h3>
+                    <p>
+                        Location: Ein Afek nature reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 200cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="3" style="display: none;">
+                    <h3>"Desret in Winter"</h3>
+                    <p>
+                        Location: Ein Avdat Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        140cm x 90cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="4" style="display: none;">
+                    <h3>"Winter Sky"</h3>
+                    <p>
+                        Location: Dor-HaBonim Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="5" style="display: none;">
+                    <h3>""</h3>
+                    <p>
+                        Location: Habonim Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="6" style="display: none;">
+                    <h3>"Dark Green Vally"</h3>
+                    <p>
+                        Location: Yehudiya Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        80cm x 60cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="7" style="display: none;">
+                    <h3>"Storm"</h3>
+                    <p>
+                        Location: Dor Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        80cm x 60cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="8" style="display: none;">
+                    <h3>"Flowering Beach"</h3>
+                    <p>
+                        Location: 
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        80cm x 60cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="9" style="display: none;">
+                    <h3>"In Autumm"</h3>
+                    <p>
+                        Location: Hermon Stream
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        90cm x 60cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="10" style="display: none;">
+                    <h3>"Yellow Bushes"</h3>
+                    <p>
+                        Location: Yehudiya Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        80cm x 60cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="11" style="display: none;">
+                    <h3>"Small River"</h3>
+                    <p>
+                        Location: Amud Stream Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        80cm x 60cm
+                    </p>
+                    
+                </div>
+
+
+                <div class="inf-content" data-num="12" style="display: none;">
+                    <h3>"Beautiful Stream"</h3>
+                    <p>
+                        Location: Amud Stream Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        60cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="13" style="display: none;">
+                    <h3>"Playing Dogs"</h3>
+                    <p>
+                        Location: Dor Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        90cm x 70cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="14" style="display: none;">
+                    <h3>"Late Afternoon"</h3>
+                    <p>
+                        Location: Hermon Stream Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        120cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="15" style="display: none;">
+                    <h3>"Birds in the Storm"</h3>
+                    <p>
+                        Location: HaBonim Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        120cm x 80cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="16" style="display: none;">
+                    <h3>"Wild Clouds"</h3>
+                    <p>
+                        Location: HaBonim Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        120cm x 80cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="17" style="display: none;">
+                    <h3>"Acacia in the Desert"</h3>
+                    <p>
+                        Location: Ein Gedi Nature Resevre
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        120cm x 80cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="18" style="display: none;">
+                    <h3>"Pelicans"</h3>
+                    <p>
+                        Location: Hula Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        120cm x 80cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="19" style="display: none;">
+                    <h3>"View of the Kineret"</h3>
+                    <p>
+                        Location: Sea of Galilee
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 80cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="20" style="display: none;">
+                    <h3>"Oasis"</h3>
+                    <p>
+                        Location: Yehudiya Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        110cm x 80cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="21" style="display: none;">
+                    <h3>"Waterfall in Spring"</h3>
+                    <p>
+                        Location: Meitzar Stream Nature Reserve
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="22" style="display: none;">
+                    <h3>"Early Morning"</h3>
+                    <p>
+                        Location: Hermon Stream Nature Resevre
+                    </p>
+                    <p>
+                        Oil on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="23" style="display: none;">
+                    <h3>"Kineret"</h3>
+                    <p>
+                        Location: Sea of Galilee
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        120cm x 90cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="24" style="display: none;">
+                    <h3>"Olive Orchards"</h3>
+                    <p>
+                        Location: Kerem Maharal
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="25" style="display: none;">
+                    <h3>"Olive Orchards"</h3>
+                    <p>
+                        Location: Kerem Maharal
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="26" style="display: none;">
+                    <h3>"Olive Orchards"</h3>
+                    <p>
+                        Location: Kerem Maharal
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="27" style="display: none;">
+                    <h3>"Olive Orchards"</h3>
+                    <p>
+                        Location: Kerem Maharal
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="28" style="display: none;">
+                    <h3>"Olive Orchards"</h3>
+                    <p>
+                        Location: Kerem Maharal
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+                <div class="inf-content" data-num="29" style="display: none;">
+                    <h3>"Olive Orchards"</h3>
+                    <p>
+                        Location: Kerem Maharal
+                    </p>
+                    <p>
+                        Acrylic on canvas
+                    </p>
+                    <p data-number-txt>
+                        100cm x 100cm
+                    </p>
+                    
+                </div>
+
+
+            </div>
+
+            <div class="footer">
+                <p class="copyright">
+                    &copy; 2022 Pavla Parik - All Rights Reserved
+                </p>
+                <div class="footer-links">
+                    <a href="contact.html">Conatact US</a>
+                    <a href="biography.html" data-left-border>Biography</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="js_code/mb_menu.js"></script>
+        <script src="js_code/gallery_ind.js"></script>
+    </body> 
+</html>
